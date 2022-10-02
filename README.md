@@ -1,7 +1,7 @@
 # Hunger-Games-Software-Academy
-only the strong survive
+Only the strong survive
 
-Only the front end website for now.
+It's just the front end static website for now.
 for a look at the site;  https://the-chosen-3rd.github.io/Hunger-Games-Software-Academy/  
 (Launched on github pages for now).
 
@@ -13,4 +13,5 @@ The backend is also currently being developed. I will be building a REST API via
 along with a postGRES database,
 
 
+Still very much a work in progress
 
