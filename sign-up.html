@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSGA Sign up</title>
+
+
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">  
+
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+ 
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+  
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+      
+  </head>
+  
+  
+  
+  <body class="bg-dark">
+    
+
+
+  
+      <section class="vh-100" style="background-color: rgb(82, 79, 79);">
+          <div class="container h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+              <div class="col-lg-12 col-xl-11">
+                <div class="card text-black bg-secondary" style="border-radius: 25px;">
+                  <div class="card-body p-md-5">
+                    <div class="row justify-content-center">
+                      <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+                        <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign Up Now</p>
+
+
+
+                        <!-- Starting here-->
+                        
+                        <form id="signup" class="form">
+                          <div id="form-field" class="form-group">
+                              <label for="username">Gladiator Name:</label>
+                              <input type="text" class="form-control" name="username" id="username" autocomplete="off">
+                              <small></small>
+                          </div>
+
+
+              
+                          <div id="form-field" class="form-group">
+                              <label for="email">Enter you Email:</label>
+                              <input type="text" class="form-control" name="email" id="email" autocomplete="off">
+                              <small></small>
+                          </div>
+
+
+              
+                          <div id="form-field" class="form-group">
+                              <label for="password">Create Password:</label>
+                              <input type="password" class="form-control" name="password" id="password" autocomplete="off">
+                              <small></small>
+                          </div>
+              
+              
+                          <div id="form-field" class="form-group">
+                              <label for="confirm-password">Confirm Password:</label>
+                              <input type="password" class="form-control" name="confirm-password" id="confirm-password" autocomplete="off">
+                              <small></small>
+                          </div>
+                          
+                          <br> 
+
+                          <div id="form-field" class="form-group">
+                              <input type="submit" value="Sign Up" class="btn-primary btn-lg">
+                          </div>
+                      </form>
+        
+
+
+                       <!-- ending here -->
+                      </div> 
+                      <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+        
+                        <img src="https://i.postimg.cc/vT6vkn4F/hg2-1.jpg"
+                          class="img-fluid" alt="Sample image">
+        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- The javascript code link is here -->
+        <script src="js_main.js"></script>
+        <script src="jquery-3.6.0.min.js"></script>
+
+  
+  </body>
+  
+  
+  </html>
+  
+</body>
+
+
+</html>
+
+
+       
+
+                                comment
+                             once you build your database / API you'll need to create a PHP file named connect
+                             So you can connect your SQL database to this form 
+                             <form action="#" method="post"  class="mx-1 mx-md-4 contact-form" id="sign_up_form" novalidate>
+        
+                                 comment
+                                 Here were asking the user to input their user name
+                              <div class="d-flex flex-row align-items-center mb-4">
+                                <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                                <div class="form-outline flex-fill mb-0 ">
+    
+                                  
+                                  <input type="text" id="Gladiator_name" class="form-label" name="Gladiator_name" required />
+                                  <label class="form-label" for="Gladiator_name">Gladiator Name</label> 
+                                  <div class="valid-feedback"> Looks Good! </div>
+                                </div>
+                              </div>
+    
+                                    comment
+                               this is the form for user to enter their email adress
+                              <div class="d-flex flex-row align-items-center mb-4">
+                                <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                                <div class="form-outline flex-fill mb-0">
+                                  <input type="email" id="Your_email" class="form-control" name="Your_email" required/>
+                                  <label class="form-label" for="Your_email">Your Email</label>
+                                </div>
+                              </div>
+            
+                              <div class="d-flex flex-row align-items-center mb-4">
+                                <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
+                                <div class="form-outline flex-fill mb-0">
+                                  <input type="password" id="pw" class="form-control" name="pw" required/>
+                                  <label class="form-label" for="pw">Password</label>
+                                  <span class="place">  </span>
+                                </div>
+                              </div>
+    
+                              comment
+                               asking user to repeat their password
+                              <div class="d-flex flex-row align-items-center mb-4">
+                                <i class="fas fa-key fa-lg me-3 fa-fw"></i>
+                                <div class="form-outline flex-fill mb-0">
+                                  <input type="password" id="rpw" class="form-control" name="rpw" required/>
+                                  <label class="form-label" for="rpw">Repeat your password</label>
+                                </div>
+                              </div>
+
+                              comment
+                               and here were begging them not to sue us 
+                              <div class="form-check d-flex justify-content-flex-end ">
+                                <input class="form-check-input me-2" type="checkbox" name="Please-dont-sue" id="Please-dont-sue" required/>
+                                <label class="form-check-label" for="Please-dont-sue">
+                                  <h5> I agree not to sue HSGA  </h5>
+                                </label>
+                              </div>
+            
+                              <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                              <a href="sign-up.html">  <button type="button" class="btn btn-primary btn-lg">Register</button> </a>
+                              </div>
+            
+                            </form>     
